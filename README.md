@@ -58,8 +58,3 @@ API Endpoints
 - `POST /api/travel` — create or resume a travel planning thread. JSON: `{ "message": "<user prompt>", "thread_id": "optional-thread-id" }`
 - `POST /api/travel/approve` — approve or request revisions for a draft. JSON: `{ "thread_id": "<id>", "approved": true|false, "feedback": "optional" }`
 - `GET /health` — basic health check and features list
-Acknowledgements
-- Built as a demonstration of LangGraph + MCP patterns with supervisor and guardrail concepts.
-
-Contact
-- For questions or suggestions, open an issue or contact the repository owner.
